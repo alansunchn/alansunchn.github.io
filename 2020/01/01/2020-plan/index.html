@@ -85,7 +85,7 @@
 <tbody>
 <tr>
 <td>论文</td>
-<td>ICCAD, DAC, CVPR 😄</td>
+<td>ICCAD, DAC, CVPR <span class="github-emoji" style="display:inline;vertical-align:middle;color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8">😄</span></td>
 <td></td>
 <td></td>
 </tr>
@@ -103,19 +103,19 @@
 </tr>
 <tr>
 <td>运动</td>
-<td>每周日健身房锻炼 &gt; 2h 💪</td>
+<td>每周日健身房锻炼 &gt; 2h <span class="github-emoji" style="display:inline;vertical-align:middle;color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f4aa.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4aa.png?v8">💪</span></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
 <td></td>
-<td>每天步行往返实验室 🚶</td>
+<td>每天步行往返实验室 <span class="github-emoji" style="display:inline;vertical-align:middle;color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f6b6.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6b6.png?v8">🚶</span></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
 <td>读书</td>
-<td>读完《九州大一统》📖</td>
+<td>读完《九州大一统》<span class="github-emoji" style="display:inline;vertical-align:middle;color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f4d6.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d6.png?v8">📖</span></td>
 <td></td>
 <td></td>
 </tr>
@@ -127,23 +127,41 @@
 </tr>
 <tr>
 <td>生活</td>
-<td>😆女朋友​</td>
+<td><span class="github-emoji" style="display:inline;vertical-align:middle;color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f606.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f606.png?v8">😆</span>女朋友​</td>
 <td>这个，尽量吧</td>
 <td></td>
 </tr>
 <tr>
 <td>攒钱</td>
 <td>&gt; 80,000 HKD</td>
-<td>要是有👧的话，估计 &gt; 70,000 HKD​</td>
+<td>要是有<span class="github-emoji" style="display:inline;vertical-align:middle;color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f467.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f467.png?v8">👧</span>的话，估计 &gt; 70,000 HKD​</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/01/01/2020-plan/" data-id="ck4va4lmf0000isg8azrhcg59"
+      <a data-url="http://yoursite.com/2020/01/01/2020-plan/" data-id="ck4va8jy10000lug87m81hfjm"
          class="article-share-link">Share</a>
       
     </footer>

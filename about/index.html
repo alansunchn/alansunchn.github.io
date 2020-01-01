@@ -63,7 +63,7 @@
 <blockquote>
 <p>Technical blog.</p>
 </blockquote>
-<h3 id="Comments-from-Others"><a class="header-anchor" href="#Comments-from-Others">¶</a>Comments from Others</h3>
+<h3 id="Comments-from-Others">Comments from Others</h3>
 <ul>
 <li>Colleague: a stupid man</li>
 <li>Parents: honey</li>
@@ -71,11 +71,29 @@
 </ul>
 <p>无故寻仇觅恨，有时似傻如狂。<br>
 潦倒不通世务，愚顽怕读文章。</p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/about/index.html" data-id="ck4va4lmk0001isg88e1ddjo5"
+      <a data-url="http://yoursite.com/about/index.html" data-id="ck4va8jy80001lug841481gmm"
          class="article-share-link">Share</a>
       
     </footer>
