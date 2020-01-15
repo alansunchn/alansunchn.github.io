@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-15T14:26:03.309Z</updated>
+  <updated>2020-01-15T14:27:35.831Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,15 +21,18 @@
     <link href="http://yoursite.com/2020/01/15/vlog-1/"/>
     <id>http://yoursite.com/2020/01/15/vlog-1/</id>
     <published>2020-01-15T13:50:50.000Z</published>
-    <updated>2020-01-15T14:26:03.309Z</updated>
+    <updated>2020-01-15T14:27:35.831Z</updated>
     
-    <content type="html"><![CDATA[<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://youtu.be/8ySrxyk1TJM","pic":"./images/vlog-1-cover.png"},"danmaku":{"id":"9E2E3368B56CDBB4","api":"http://dplayer.daoapp.io","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><video width="480" height="320" controls=""><source src="https://youtu.be/8ySrxyk1TJM"></video><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<video width="480" height="320" controls=""><source src="https://youtu.be/8ySrxyk1TJM"></video><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;div id=&quot;dplayer0&quot; class=&quot;dplayer hexo-tag-dplayer-mark&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;/div&gt;&lt;script&gt;(function(){var player = new DPlayer({&quot;c
+        &lt;video width=&quot;480&quot; height=&quot;320&quot; controls=&quot;&quot;&gt;
+&lt;source src=&quot;https://youtu.be/8ySrxyk1TJM&quot;&gt;
+&lt;/video&gt;&lt;script&gt;
+        document.querySelectorAll(
       
     
     </summary>
