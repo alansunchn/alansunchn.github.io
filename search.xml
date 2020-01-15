@@ -3,7 +3,9 @@
   <entry>
     <title>My First Vlog</title>
     <url>/2020/01/15/vlog-1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><iframe width="560" height="315" src="https://www.youtube.com/embed/8ySrxyk1TJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><script>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>This is my first vlog, shot by iPhone 6s Plus, on 13th Jan. 2020, edited by VUE.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8ySrxyk1TJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
