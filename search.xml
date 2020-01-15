@@ -3,7 +3,7 @@
   <entry>
     <title>My First Vlog</title>
     <url>/2020/01/15/vlog-1/</url>
-    <content><![CDATA[<video width="480" height="320" controls="">
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><video width="480" height="320" controls="">
 <source src="https://youtu.be/8ySrxyk1TJM">
 </video><script>
         document.querySelectorAll('.github-emoji')
@@ -31,7 +31,7 @@
   <entry>
     <title>2020 Annual Plan</title>
     <url>/2020/01/01/2020-plan/</url>
-    <content><![CDATA[<p>新年伊始，应当明确目标。有目标，便有动力，便有完成目标的喜悦。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>新年伊始，应当明确目标。有目标，便有动力，便有完成目标的喜悦。</p>
 <table>
 <thead>
 <tr>
@@ -118,7 +118,7 @@
   <entry>
     <title>滕王阁序</title>
     <url>/2019/10/17/tengwangge/</url>
-    <content><![CDATA[<p>南昌故郡，洪都新府。星分翼轸，地接衡庐。襟三江而带五湖，控蛮荆而引瓯越。物华天宝，龙光射牛斗之墟；人杰地灵，徐孺下陈蕃之榻。雄州雾列，俊采星驰。台隍枕夷夏之交，宾主尽东南之美。都督阎公之雅望，棨戟遥临；宇文新州之懿范，襜帷暂驻。十旬休假，胜友如云；千里逢迎，高朋满座。腾蛟起凤，孟学士之词宗；紫电青霜，王将军之武库。家君作宰，路出名区；童子何知，躬逢胜饯。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>南昌故郡，洪都新府。星分翼轸，地接衡庐。襟三江而带五湖，控蛮荆而引瓯越。物华天宝，龙光射牛斗之墟；人杰地灵，徐孺下陈蕃之榻。雄州雾列，俊采星驰。台隍枕夷夏之交，宾主尽东南之美。都督阎公之雅望，棨戟遥临；宇文新州之懿范，襜帷暂驻。十旬休假，胜友如云；千里逢迎，高朋满座。腾蛟起凤，孟学士之词宗；紫电青霜，王将军之武库。家君作宰，路出名区；童子何知，躬逢胜饯。</p>
 <a id="more"></a>
 <p>时维九月，序属三秋。潦水尽而寒潭清，烟光凝而暮山紫。俨骖騑于上路，访风景于崇阿；临帝子之长洲，得仙人之旧馆。层台耸翠，上出重霄；飞阁翔丹，下临无地。鹤汀凫渚，穷岛屿之萦回；桂殿兰宫，列冈峦之体势。</p>
 <p>披绣闼，俯雕甍，山原旷其盈视，川泽纡其骇瞩。闾阎扑地，钟鸣鼎食之家；舸舰弥津，青雀黄龙之舳。云销雨霁，彩彻区明。落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。</p>
@@ -156,7 +156,7 @@
   <entry>
     <title>Open Meeting with Vice-Chancellor</title>
     <url>/2019/10/17/forhk/</url>
-    <content><![CDATA[<p>10 October 2019, Sir Run Run Shaw Hall.</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>10 October 2019, Sir Run Run Shaw Hall.</p>
 <a id="more"></a>
 <script>
         document.querySelectorAll('.github-emoji')
