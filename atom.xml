@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-15T02:30:11.197Z</updated>
+  <updated>2020-01-15T13:51:08.554Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My First Vlog</title>
+    <link href="http://yoursite.com/2020/01/15/vlog-1/"/>
+    <id>http://yoursite.com/2020/01/15/vlog-1/</id>
+    <published>2020-01-15T13:50:50.000Z</published>
+    <updated>2020-01-15T13:51:08.554Z</updated>
+    
+    <content type="html"><![CDATA[<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"./images/vlog-1.mp4","pic":"./images/vlog-1-cover.png"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;div id=&quot;dplayer0&quot; class=&quot;dplayer hexo-tag-dplayer-mark&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;/div&gt;&lt;script&gt;(function(){var player = new DPlayer({&quot;c
+      
+    
+    </summary>
+    
+    
+      <category term="Life" scheme="http://yoursite.com/categories/Life/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>2020 Annual Plan</title>
