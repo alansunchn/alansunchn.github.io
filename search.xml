@@ -3,7 +3,10 @@
   <entry>
     <title>My First Vlog</title>
     <url>/2020/01/15/vlog-1/</url>
-    <content><![CDATA[<script>
+    <content><![CDATA[<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://youtu.be/8ySrxyk1TJM","pic":"./images/vlog-1-cover.png"},"danmaku":{"id":"9E2E3368B56CDBB4","api":"http://dplayer.daoapp.io","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+<video width="480" height="320" controls="">
+<source src="https://youtu.be/8ySrxyk1TJM">
+</video><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
