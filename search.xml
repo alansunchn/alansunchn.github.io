@@ -1,6 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Photography ABC</title>
+    <url>/2020/01/16/photography-ABC/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://www.youtube.com/watch?v=XL8202-rv5o&amp;list=PLmQwAavABhrgLKCxxk-5by-oZJyqAsJ-o&amp;index=2&amp;t=0s" target="_blank" rel="noopener">摄影世界入门</a>。</p>
+<p>单反：单镜头反光式取景，使用五棱镜</p>
+<p>微单：微型单镜头电子式取景</p>
+<ol>
+<li>
+<p>快门速度</p>
+<p>慢速用三脚架</p>
+<p>快快门适合抓怕，进光量小，较暗</p>
+<p>慢快门延时摄影，进光量大，较亮</p>
+</li>
+<li>
+<p>光圈</p>
+<p>光圈大小=f/x</p>
+<p>x 越小，光圈越大，进光量越大。</p>
+<p>大光圈：对焦的地方比较清晰，其他地方会比较模糊，景深浅，适合特写。镜头光圈越大，价格越高。</p>
+<p>小光圈：远近景物都很清晰，景深广（适合风景片）。</p>
+</li>
+<li>
+<p>感光度 ISO</p>
+<p>感光材料对光线的敏感度</p>
+<p>感光度越高，则越敏感。</p>
+<p>高感光度容易导致噪点，可以适当降低感光度。</p>
+</li>
+<li>
+<p>焦距</p>
+<p>焦距越长，距离越远，范围越小。焦距越小，距离越近，范围越广。</p>
+<p>短焦（广角）镜头：短焦距，视野范围大。</p>
+<p>长焦镜头：拍得远，远距离更清晰。</p>
+</li>
+<li>
+<p>镜头素质</p>
+<p>像、清、亮、匀、准、适、小</p>
+<p>无畸变</p>
+<p>细节清晰</p>
+<p>透光率高</p>
+<p>成像均匀</p>
+<p>控制准确</p>
+<p>手动调焦阻尼适中</p>
+<p>小巧轻便</p>
+</li>
+<li>
+<p>佳能：红圈</p>
+<p>尼康：金圈</p>
+</li>
+</ol>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>Photography</category>
+      </categories>
+  </entry>
+  <entry>
     <title>My First Vlog</title>
     <url>/2020/01/15/vlog-1/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>This is my first vlog, shot by iPhone 6s Plus, on 13th Jan. 2020, edited by VUE.</p>
