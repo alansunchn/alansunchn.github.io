@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>placement-ABC</title>
+    <title>Placement-ABC</title>
     <url>/2020/01/28/placement-ABC/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Bored to death, Jan. 28, 2020, due to the outbreak of Wuhan coronavirus and the restricted travel.</p>
-<p>Some basics of placement, including ASIC and FPGA.</p>
+<p>Some basics of back-end designs, including Placement on ASIC and FPGA.</p>
+<p>[TOC]</p>
+<h2 id="VLSI-Design-Cycle">VLSI Design Cycle</h2>
+<p>System Specification $\rightarrow$ Architecture Design $\rightarrow$ Functional Design.</p>
 <a id="more"></a>
 <h2 id="ePlace-MS">ePlace-MS</h2>
 <blockquote>
@@ -14,7 +17,7 @@
 <p>2015 TCAD</p>
 </blockquote>
 <blockquote>
-<p>generalized, analytic and nonlinear.</p>
+<p>generalized, analytic and nonlinear, for large-scale mixed-size circuits.</p>
 </blockquote>
 <ol>
 <li>Nesterov’s method</li>
