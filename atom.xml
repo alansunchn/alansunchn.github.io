@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-28T08:52:25.800Z</updated>
+  <updated>2020-01-28T09:01:41.142Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,34 @@
     <link href="http://yoursite.com/2020/01/28/placement-ABC/"/>
     <id>http://yoursite.com/2020/01/28/placement-ABC/</id>
     <published>2020-01-28T03:01:06.000Z</published>
-    <updated>2020-01-28T08:52:25.800Z</updated>
+    <updated>2020-01-28T09:01:41.142Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Bored to death, Jan. 28, 2020, due to the outbreak of Wuhan coronavirus and the restricted travel.</p><p>Some basics of back-end designs, including Placement on ASIC and FPGA.</p><p>[TOC]</p><h2 id="VLSI-Design-Cycle">VLSI Design Cycle</h2><p>System Specification $\rightarrow$ Architecture Design $\rightarrow$ Functional Design.</p><a id="more"></a><h2 id="ePlace-MS">ePlace-MS</h2><blockquote><p>ePlace-MS Electrostatics-Based Placement for Mixed-Size Circuits</p></blockquote><blockquote><p>2015 TCAD</p></blockquote><blockquote><p>generalized, analytic and nonlinear, for large-scale mixed-size circuits.</p></blockquote><ol><li>Nesterov’s method</li><li>backtracking method to prevent overestimation</li><li>nonlinear preconditioner</li><li>simulated annealer legalization</li><li>second-phase global placement (re-optimize)</li></ol><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Bored to death, Jan. 28, 2020, due to the outbreak of Wuhan coronavirus and the restricted travel.</p><p>Some basics of back-end designs, including Placement on ASIC and FPGA.</p><h3 id="VLSI-Design-Cycle">VLSI Design Cycle</h3><ul><li>System Specification</li><li>Architecture Design</li><li>Functional Design</li><li>Logic Design</li><li>Circuit Design</li><li>Physical Design<ul><li>Circuit Partitioning</li><li>Floorplanning &amp; Placement</li><li>Clock Tree Synthesis</li><li>Routing</li><li>Layout Compaction</li><li>Extraction and Verification</li></ul></li><li>Fabrication</li><li>Packaging</li></ul><a id="more"></a><h3 id="ePlace-MS">ePlace-MS</h3><blockquote><p>ePlace-MS Electrostatics-Based Placement for Mixed-Size Circuits</p></blockquote><blockquote><p>2015 TCAD</p></blockquote><blockquote><p>generalized, analytic and nonlinear, for large-scale mixed-size circuits.</p></blockquote><ol><li>Nesterov’s method</li><li>backtracking method to prevent overestimation</li><li>nonlinear preconditioner</li><li>simulated annealer legalization</li><li>second-phase global placement (re-optimize)</li></ol><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
       &lt;p&gt;Bored to death, Jan. 28, 2020, due to the outbreak of Wuhan coronavirus and the restricted travel.&lt;/p&gt;
 &lt;p&gt;Some basics of back-end designs, including Placement on ASIC and FPGA.&lt;/p&gt;
-&lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h2 id=&quot;VLSI-Design-Cycle&quot;&gt;VLSI Design Cycle&lt;/h2&gt;
-&lt;p&gt;System Specification $\rightarrow$ Architecture Design $\rightarrow$ Functional Design.&lt;/p&gt;
+&lt;h3 id=&quot;VLSI-Design-Cycle&quot;&gt;VLSI Design Cycle&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;System Specification&lt;/li&gt;
+&lt;li&gt;Architecture Design&lt;/li&gt;
+&lt;li&gt;Functional Design&lt;/li&gt;
+&lt;li&gt;Logic Design&lt;/li&gt;
+&lt;li&gt;Circuit Design&lt;/li&gt;
+&lt;li&gt;Physical Design
+&lt;ul&gt;
+&lt;li&gt;Circuit Partitioning&lt;/li&gt;
+&lt;li&gt;Floorplanning &amp;amp; Placement&lt;/li&gt;
+&lt;li&gt;Clock Tree Synthesis&lt;/li&gt;
+&lt;li&gt;Routing&lt;/li&gt;
+&lt;li&gt;Layout Compaction&lt;/li&gt;
+&lt;li&gt;Extraction and Verification&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Fabrication&lt;/li&gt;
+&lt;li&gt;Packaging&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     

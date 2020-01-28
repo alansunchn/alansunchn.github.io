@@ -5,11 +5,28 @@
     <url>/2020/01/28/placement-ABC/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Bored to death, Jan. 28, 2020, due to the outbreak of Wuhan coronavirus and the restricted travel.</p>
 <p>Some basics of back-end designs, including Placement on ASIC and FPGA.</p>
-<p>[TOC]</p>
-<h2 id="VLSI-Design-Cycle">VLSI Design Cycle</h2>
-<p>System Specification $\rightarrow$ Architecture Design $\rightarrow$ Functional Design.</p>
+<h3 id="VLSI-Design-Cycle">VLSI Design Cycle</h3>
+<ul>
+<li>System Specification</li>
+<li>Architecture Design</li>
+<li>Functional Design</li>
+<li>Logic Design</li>
+<li>Circuit Design</li>
+<li>Physical Design
+<ul>
+<li>Circuit Partitioning</li>
+<li>Floorplanning &amp; Placement</li>
+<li>Clock Tree Synthesis</li>
+<li>Routing</li>
+<li>Layout Compaction</li>
+<li>Extraction and Verification</li>
+</ul>
+</li>
+<li>Fabrication</li>
+<li>Packaging</li>
+</ul>
 <a id="more"></a>
-<h2 id="ePlace-MS">ePlace-MS</h2>
+<h3 id="ePlace-MS">ePlace-MS</h3>
 <blockquote>
 <p>ePlace-MS Electrostatics-Based Placement for Mixed-Size Circuits</p>
 </blockquote>
