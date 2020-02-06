@@ -1,48 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Placement-ABC</title>
-    <url>/2020/01/28/placement-ABC/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Bored to death, Jan. 28, 2020, due to the outbreak of Wuhan coronavirus and the restricted travel.</p>
-<p>Some basics of back-end designs, including Placement on ASIC and FPGA.</p>
-<h3 id="VLSI-Design-Cycle">VLSI Design Cycle</h3>
+    <title>杂记</title>
+    <url>/2020/02/07/miscellany/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="2019新型冠状病毒">2019新型冠状病毒</h2>
 <ul>
-<li>System Specification</li>
-<li>Architecture Design</li>
-<li>Functional Design</li>
-<li>Logic Design</li>
-<li>Circuit Design</li>
-<li>Physical Design
-<ul>
-<li>Circuit Partitioning</li>
-<li>Floorplanning &amp; Placement</li>
-<li>Clock Tree Synthesis</li>
-<li>Routing</li>
-<li>Layout Compaction</li>
-<li>Extraction and Verification</li>
+<li>2020年1月20日晚，钟南山称存在人传人现象。</li>
+<li>2020年1月22日晚，国家疾控中心主任高福称新型冠状病毒来自武汉华南海鲜市场非法销售的野生动物。</li>
+<li>2020年2月6日晚21时30分许，疫情“吹哨人”武汉市中心医院李文亮于病逝。<br>
+<img src="./images/liwenliang.jpg" width="50%"></li>
 </ul>
-</li>
-<li>Fabrication</li>
-<li>Packaging</li>
-</ul>
-<a id="more"></a>
-<h3 id="ePlace-MS">ePlace-MS</h3>
-<blockquote>
-<p>ePlace-MS Electrostatics-Based Placement for Mixed-Size Circuits</p>
-</blockquote>
-<blockquote>
-<p>2015 TCAD</p>
-</blockquote>
-<blockquote>
-<p>generalized, analytic and nonlinear, for large-scale mixed-size circuits.</p>
-</blockquote>
-<ol>
-<li>Nesterov’s method</li>
-<li>backtracking method to prevent overestimation</li>
-<li>nonlinear preconditioner</li>
-<li>simulated annealer legalization</li>
-<li>second-phase global placement (re-optimize)</li>
-</ol>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -63,7 +30,7 @@
           });
       </script>]]></content>
       <categories>
-        <category>Research</category>
+        <category>Life</category>
       </categories>
   </entry>
   <entry>
