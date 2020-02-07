@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-07T09:18:22.085Z</updated>
+  <updated>2020-02-07T13:24:17.390Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,16 +21,17 @@
     <link href="http://yoursite.com/2020/02/07/miscellany/"/>
     <id>http://yoursite.com/2020/02/07/miscellany/</id>
     <published>2020-02-06T17:00:57.000Z</published>
-    <updated>2020-02-07T09:18:22.085Z</updated>
+    <updated>2020-02-07T13:24:17.390Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="2019新型冠状病毒">2019新型冠状病毒</h3><h4 id="Reference">Reference</h4><p><a href="https://github.com/2019ncovmemory/nCovMemory" target="_blank" rel="noopener">2020新冠肺炎记忆 GitHub</a>.<br><a href="https://wars.vote4.hk/" target="_blank" rel="noopener">香港新型肺炎民间统计</a>.</p><h4 id="Time-Stamp">Time Stamp</h4><ul><li>2020年1月20日晚，钟南山称存在人传人现象。</li><li>2020年1月22日晚，国家疾控中心主任高福称新型冠状病毒来自武汉华南海鲜市场非法销售的野生动物。</li><li>2020年1月23日晚，浙江、广东、湖南启动重大突发公共卫生事件一级响应。</li></ul><a id="more"></a><ul><li>2020年1月25日，正月初一，江苏启动重大突发公共卫生事件一级响应。</li><li>2020年2月2日晚，Qi 经罗湖口岸返回香港，口岸即将关闭。</li></ul><center class="half">    <img src="/gallery/imgs/back1.jpeg" width="200"><img src="/gallery/imgs/back2.jpeg" width="200"></center><ul><li>2020年2月3日，香港封关，仅剩机场、深圳湾口岸和港珠澳大桥口岸。</li><li>2020年2月6日晚21时30分许，疫情“吹哨人”武汉市中心医院李文亮医生病逝。</li></ul><center class="half">    <img src="/gallery/imgs/liwenliang.jpg" width="200"></center><ul><li>2020年2月7日，国家监察委员会派调查组赴武汉市，调查李文亮医生有关问题，<a href="http://www.ccdi.gov.cn/yaowen/202002/t20200207_211014.html" target="_blank" rel="noopener">中纪委网站</a>。</li></ul><center class="half">    <img src="/gallery/imgs/jiancha.jpeg" width="600"></center><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="2019新型冠状病毒">2019新型冠状病毒</h3><h4 id="Reference">Reference</h4><p><a href="https://github.com/2019ncovmemory/nCovMemory" target="_blank" rel="noopener">2020新冠肺炎记忆 GitHub</a>.<br><a href="https://wars.vote4.hk/" target="_blank" rel="noopener">香港新型肺炎民间统计</a>.<br><a href="https://chp-dashboard.geodata.gov.hk/nia/zh.html" target="_blank" rel="noopener">香港新型肺炎政府统计</a>.</p><h4 id="Time-Stamp">Time Stamp</h4><ul><li>2020年1月20日晚，钟南山称存在人传人现象。</li><li>2020年1月22日晚，国家疾控中心主任高福称新型冠状病毒来自武汉华南海鲜市场非法销售的野生动物。</li><li>2020年1月23日晚，浙江、广东、湖南启动重大突发公共卫生事件一级响应。</li></ul><a id="more"></a><ul><li>2020年1月25日，正月初一，江苏启动重大突发公共卫生事件一级响应。</li><li>2020年2月2日晚，Qi 经罗湖口岸返回香港，口岸即将关闭。</li></ul><center class="half">    <img src="/gallery/imgs/back1.jpeg" width="200"><img src="/gallery/imgs/back2.jpeg" width="200"></center><ul><li>2020年2月3日，香港封关，仅剩机场、深圳湾口岸和港珠澳大桥口岸。</li><li>2020年2月6日晚21时30分许，疫情“吹哨人”武汉市中心医院李文亮医生病逝。</li></ul><center class="half">    <img src="/gallery/imgs/liwenliang.jpg" width="200"></center><ul><li>2020年2月7日，国家监察委员会派调查组赴武汉市，调查李文亮医生有关问题，<a href="http://www.ccdi.gov.cn/yaowen/202002/t20200207_211014.html" target="_blank" rel="noopener">中纪委网站</a>。</li></ul><center class="half">    <img src="/gallery/imgs/jiancha.jpeg" width="600"></center><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
       &lt;h3 id=&quot;2019新型冠状病毒&quot;&gt;2019新型冠状病毒&lt;/h3&gt;
 &lt;h4 id=&quot;Reference&quot;&gt;Reference&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/2019ncovmemory/nCovMemory&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;2020新冠肺炎记忆 GitHub&lt;/a&gt;.&lt;br&gt;
-&lt;a href=&quot;https://wars.vote4.hk/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;香港新型肺炎民间统计&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&quot;https://wars.vote4.hk/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;香港新型肺炎民间统计&lt;/a&gt;.&lt;br&gt;
+&lt;a href=&quot;https://chp-dashboard.geodata.gov.hk/nia/zh.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;香港新型肺炎政府统计&lt;/a&gt;.&lt;/p&gt;
 &lt;h4 id=&quot;Time-Stamp&quot;&gt;Time Stamp&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;2020年1月20日晚，钟南山称存在人传人现象。&lt;/li&gt;
