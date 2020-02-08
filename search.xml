@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>vivado-implementation</title>
+    <url>/2020/02/07/vivado-implementation/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>Vivado Implementation</h1>
+<h2 id="Design-Constraints">Design Constraints</h2>
+<h3 id="Allowed-Constraint-Set-Structures">Allowed Constraint Set Structures</h3>
+<p>The following constraint set structures are allowed:</p>
+<ul>
+<li>Multiple constraint files within a constraint set</li>
+<li>Constraint sets with separate physical and timing constraint files</li>
+<li>A master constraint file</li>
+<li>A new constraint file that accepts constraint changes</li>
+<li>Multiple constraint sets</li>
+</ul>
+<h3 id="Multiple-Constraint-Sets-Are-Allowed">Multiple Constraint Sets Are Allowed</h3>
+<p>You can have multiple constraint sets for a project. Multiple constraint sets allow you to use different implementation runs to test different approaches. Having multiple constraint sets allows you to experiment by applying different constraints during synthesis, simulation, and implementation.</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>Engineering</category>
+      </categories>
+  </entry>
+  <entry>
     <title>杂记</title>
     <url>/2020/02/07/miscellany/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="2019新型冠状病毒">2019新型冠状病毒</h3>
@@ -30,10 +69,16 @@
     <img src="/gallery/imgs/liwenliang.jpg" width="200">
 </center>
 <ul>
-<li>2020年2月7日，国家监察委员会派调查组赴武汉市，调查李文亮医生有关问题，<a href="http://www.ccdi.gov.cn/yaowen/202002/t20200207_211014.html" target="_blank" rel="noopener">中纪委网站</a>。</li>
+<li>2020年2月7日，国家监察委员会派调查组赴武汉市，调查李文亮医生有关问题，<a href="http://www.ccdi.gov.cn/yaowen/202002/t20200207_211014.html" target="_blank" rel="noopener">中纪委网站链接</a>。</li>
 </ul>
 <center class="half">
     <img src="/gallery/imgs/jiancha.jpeg" width="600">
+</center>
+<ul>
+<li>2020年2月8日，国家监察委员会调查组已抵达武汉，<a href="http://www.ccdi.gov.cn/toutiao/202002/t20200208_211082.html" target="_blank" rel="noopener">中纪委网站链接</a>。</li>
+</ul>
+<center class="half">
+    <img src="/gallery/imgs/640.jpeg" width="600">
 </center><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
