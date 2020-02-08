@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-07T15:28:14.004Z</updated>
+  <updated>2020-02-08T17:26:40.285Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>vivado-implementation</title>
+    <title>Vivado Implementation</title>
     <link href="http://yoursite.com/2020/02/07/vivado-implementation/"/>
     <id>http://yoursite.com/2020/02/07/vivado-implementation/</id>
     <published>2020-02-07T15:24:21.000Z</published>
-    <updated>2020-02-07T15:28:14.004Z</updated>
+    <updated>2020-02-08T17:26:40.285Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>Vivado Implementation</h1><h2 id="Design-Constraints">Design Constraints</h2><h3 id="Allowed-Constraint-Set-Structures">Allowed Constraint Set Structures</h3><p>The following constraint set structures are allowed:</p><ul><li>Multiple constraint files within a constraint set</li><li>Constraint sets with separate physical and timing constraint files</li><li>A master constraint file</li><li>A new constraint file that accepts constraint changes</li><li>Multiple constraint sets</li></ul><h3 id="Multiple-Constraint-Sets-Are-Allowed">Multiple Constraint Sets Are Allowed</h3><p>You can have multiple constraint sets for a project. Multiple constraint sets allow you to use different implementation runs to test different approaches. Having multiple constraint sets allows you to experiment by applying different constraints during synthesis, simulation, and implementation.</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Vivado-Implementation">Vivado Implementation</h2><h3 id="Design-Constraints">Design Constraints</h3><h4 id="Allowed-Constraint-Set-Structures">Allowed Constraint Set Structures</h4><p>The following constraint set structures are allowed:</p><ul><li>Multiple constraint files within a constraint set</li><li>Constraint sets with separate physical and timing constraint files</li><li>A master constraint file</li><li>A new constraint file that accepts constraint changes</li><li>Multiple constraint sets</li></ul><h4 id="Multiple-Constraint-Sets-Are-Allowed">Multiple Constraint Sets Are Allowed</h4><p>You can have multiple constraint sets for a project. Multiple constraint sets allow you to use different implementation runs to test different approaches. Having multiple constraint sets allows you to experiment by applying different constraints during synthesis, simulation, and implementation.</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
