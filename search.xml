@@ -5,6 +5,7 @@
     <url>/2020/02/07/vivado-implementation/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Guiding-Implementation-with-Design-Constraints">Guiding Implementation with Design Constraints</h2>
 <p>A constraint set is a list of constraint files that can be applied to your design in Project Mode. The set contains design constraints captured in XDC (Xilinx Design Constraint) or Tcl files.</p>
+<a id="more"></a>
 <h3 id="Physical-Constraints-Definition">Physical Constraints Definition</h3>
 <p>• Package pin placement.<br>
 • Absolute or relative placement of cells, including Block RAM, DSP, LUT, and flip-flops.<br>
@@ -33,15 +34,13 @@
 <li>Assembles the netlist.</li>
 <li>Transforms legacy netlist primitives to currently supported subset of unisim primitives.</li>
 <li>Processes constraints from XDC files.</li>
-<li>Builds placement macros.</li>
+<li>Builds placement macros.<br>
+Creates placement macros of cells, based on their connectivity or placement constraints to simplify placement.<br>
+Examples of placement macros include:<br>
+- An XDC-based macro.<br>
+- A relatively place macro (RPM). RPMs are placed as a group rather than as individual cells.<br>
+- A long carry chain that needs to be placed in multiple CLBs. The primitives making up the carry chains must belong to a single macro to ensure that downstream placement aligns it into vertical slices.</li>
 </ol>
-<p>Creates placement macros of cells, based on their connectivity or placement constraints to simplify placement.<br>
-Examples of placement macros include:</p>
-<ul>
-<li>An XDC-based macro.</li>
-<li>A relatively place macro (RPM). RPMs are placed as a group rather than as individual cells.</li>
-<li>A long carry chain that needs to be placed in multiple CLBs. The primitives making up the carry chains must belong to a single macro to ensure that downstream placement aligns it into vertical slices.</li>
-</ul>
 <h3 id="2-Opt-Design">2. Opt Design</h3>
 <h3 id="3-Power-Opt-Design-optional">3. Power Opt Design (optional)</h3>
 <h3 id="4-Place-Design">4. Place Design</h3>
