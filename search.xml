@@ -3,9 +3,16 @@
   <entry>
     <title>Vivado Implementation</title>
     <url>/2020/02/07/vivado-implementation/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Vivado-Implementation">Vivado Implementation</h2>
-<h3 id="Design-Constraints">Design Constraints</h3>
-<h4 id="Allowed-Constraint-Set-Structures">Allowed Constraint Set Structures</h4>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Guiding-Implementation-with-Design-Constraints">Guiding Implementation with Design Constraints</h2>
+<p>A constraint set is a list of constraint files that can be applied to your design in Project Mode. The set contains design constraints captured in XDC (Xilinx Design Constraint) or Tcl files.</p>
+<h3 id="Physical-Constraints-Definition">Physical Constraints Definition</h3>
+<p>• Package pin placement.<br>
+• Absolute or relative placement of cells, including Block RAM, DSP, LUT, and flip-flops.<br>
+• Floorplanning constraints that assign cells to general regions of a device.<br>
+• Device configuration settings.</p>
+<h3 id="Timing-Constraints-Definition">Timing Constraints Definition</h3>
+<p>Timing constraints define the frequency requirements for the design, and are written in industry standard SDC. Without timing constraints, the Vivado Design Suite optimizes the design solely for wire length and routing congestion, and makes no effort to assess or improve design performance.</p>
+<h3 id="Allowed-Constraint-Set-Structures">Allowed Constraint Set Structures</h3>
 <p>The following constraint set structures are allowed:</p>
 <ul>
 <li>Multiple constraint files within a constraint set</li>
@@ -14,8 +21,63 @@
 <li>A new constraint file that accepts constraint changes</li>
 <li>Multiple constraint sets</li>
 </ul>
-<h4 id="Multiple-Constraint-Sets-Are-Allowed">Multiple Constraint Sets Are Allowed</h4>
+<h3 id="Multiple-Constraint-Sets-Are-Allowed">Multiple Constraint Sets Are Allowed</h3>
 <p>You can have multiple constraint sets for a project. Multiple constraint sets allow you to use different implementation runs to test different approaches. Having multiple constraint sets allows you to experiment by applying different constraints during synthesis, simulation, and implementation.</p>
+<h2 id="Implementation-Sub-processes">Implementation Sub-processes</h2>
+<blockquote>
+<p>Examples in ‘examples/Vivado_Tutorial/’.</p>
+</blockquote>
+<p>Putting a design through the Vivado implementation process, whether in Project Mode or Non-project Mode, consists of several sub-processes:</p>
+<h3 id="1-Open-Synthesized-Design">1. Open Synthesized Design</h3>
+<ol>
+<li>Assembles the netlist.</li>
+<li>Transforms legacy netlist primitives to currently supported subset of unisim primitives.</li>
+<li>Processes constraints from XDC files.</li>
+<li>Builds placement macros.</li>
+</ol>
+<p>Creates placement macros of cells, based on their connectivity or placement constraints to simplify placement.<br>
+Examples of placement macros include:</p>
+<ul>
+<li>An XDC-based macro.</li>
+<li>A relatively place macro (RPM). RPMs are placed as a group rather than as individual cells.</li>
+<li>A long carry chain that needs to be placed in multiple CLBs. The primitives making up the carry chains must belong to a single macro to ensure that downstream placement aligns it into vertical slices.</li>
+</ul>
+<h3 id="2-Opt-Design">2. Opt Design</h3>
+<h3 id="3-Power-Opt-Design-optional">3. Power Opt Design (optional)</h3>
+<h3 id="4-Place-Design">4. Place Design</h3>
+<h3 id="5-Post-Place-Power-Opt-Design-optional">5. Post-Place Power Opt Design (optional)</h3>
+<h3 id="6-Post-Place-Phys-Opt-Design-optional">6. Post-Place Phys Opt Design (optional)</h3>
+<h3 id="7-Route-Design">7. Route Design</h3>
+<h3 id="8-Post-Route-Phys-Opt-Design-optional">8. Post-Route Phys Opt Design (optional)</h3>
+<h3 id="9-Write-Bitstream">9. Write Bitstream</h3>
+<h2 id="Tcl-commands">Tcl commands</h2>
+<h3 id="1-Open-Synthesized-Design-2">1. Open Synthesized Design</h3>
+<ol>
+<li>synth_design</li>
+<li>open_checkpoint</li>
+<li>open_run</li>
+<li>link_design</li>
+</ol>
+<h3 id="2-Opt-Design-2">2. Opt Design</h3>
+<ol>
+<li>opt_design</li>
+</ol>
+<h3 id="3-Power-Opt-Design">3. Power Opt Design</h3>
+<ol>
+<li>power_opt_design</li>
+</ol>
+<h3 id="4-Place-Design-2">4. Place Design</h3>
+<ol>
+<li>place_design</li>
+</ol>
+<h3 id="5-Route-Design">5. Route Design</h3>
+<ol>
+<li>route_design</li>
+</ol>
+<h3 id="6-Write-Bitstream">6. Write Bitstream</h3>
+<ol>
+<li>write_bitstream</li>
+</ol>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -79,7 +141,11 @@
 </ul>
 <center class="half">
     <img src="/gallery/imgs/640.jpeg" width="600">
-</center><script>
+</center>
+<ul>
+<li>2020年2月9日，湖北省召开疫情防控新闻发布会，华中农业大学陈焕春教授称，新型冠状病毒属于SARS相关冠状病毒。</li>
+</ul>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
