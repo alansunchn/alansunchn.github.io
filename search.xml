@@ -169,7 +169,8 @@ Arguments:
 <h4 id="Reference">Reference</h4>
 <p><a href="https://github.com/2019ncovmemory/nCovMemory" target="_blank" rel="noopener">2020新冠肺炎记忆 GitHub</a>.<br>
 <a href="https://wars.vote4.hk/" target="_blank" rel="noopener">香港新型肺炎民间统计</a>.<br>
-<a href="https://chp-dashboard.geodata.gov.hk/nia/zh.html" target="_blank" rel="noopener">香港新型肺炎政府统计</a>.</p>
+<a href="https://chp-dashboard.geodata.gov.hk/nia/zh.html" target="_blank" rel="noopener">香港新型肺炎政府统计</a>.<br>
+<a href="https://www.youtube.com/watch?v=WH1dxF-AZJQ" target="_blank" rel="noopener">We Are All Fighters</a>.</p>
 <h4 id="Time-Stamp">Time Stamp</h4>
 <ul>
 <li>2020年1月20日晚，钟南山称存在人传人现象。</li>
@@ -218,6 +219,11 @@ Arguments:
 <li>2020年2月17日，连云港昨日无新增确诊病例。</li>
 <li>2020年2月17日，全国两会将会推迟召开。</li>
 <li>2020年2月18日，连云港昨日无新增确诊病例。截至2020年2月17日24时，全市累计报告新型冠状病毒肺炎确诊病例48例。其中，危重型病例1例，出院病例14例。</li>
+<li>2020年2月23日，24个省区市确诊病例零新增。</li>
+<li>2020年2月24日，韩国累计确诊833例，香港累计确诊79例。</li>
+<li>2020年2月26日，韩国累计确诊1146例。</li>
+<li>2020年2月28日，韩国累计确诊1595例，日本累计确诊161例，“钻石公主”号累计确诊691例，伊朗累计确诊139例，意大利累计确诊400例。疫情开始全球扩散。</li>
+<li>2020年3月，中国疫情逐渐消退，各地逐步复工。</li>
 </ul>
 <script>
         document.querySelectorAll('.github-emoji')
@@ -321,93 +327,6 @@ Arguments:
     <url>/2020/01/15/vlog-1/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>This is my first vlog, shot by iPhone 6s Plus, on 13th Jan. 2020, edited by VUE.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8ySrxyk1TJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-      <categories>
-        <category>Life</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>2020 Annual Plan</title>
-    <url>/2020/01/01/2020-plan/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>新年伊始，应当明确目标。有目标，便有动力，便有完成目标的喜悦。</p>
-<table>
-<thead>
-<tr>
-<th>主题</th>
-<th>目标</th>
-<th>Note</th>
-<th>完成情况</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>交流</td>
-<td>Oversea research</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>实习</td>
-<td>Company Intern</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>运动</td>
-<td>每周日健身房锻炼 &gt; 2h <span class="github-emoji" style="display:inline;vertical-align:middle;color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f4aa.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4aa.png?v8">💪</span></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>每天步行往返实验室 <span class="github-emoji" style="display:inline;vertical-align:middle;color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f6b6.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6b6.png?v8">🚶</span></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>读书</td>
-<td>读完《九州大一统》<span class="github-emoji" style="display:inline;vertical-align:middle;color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f4d6.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d6.png?v8">📖</span></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>博客</td>
-<td>每月至少一篇博客</td>
-<td>时政、历史、生活均可</td>
-<td></td>
-</tr>
-<tr>
-<td>生活</td>
-<td><span class="github-emoji" style="display:inline;vertical-align:middle;color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f606.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f606.png?v8">😆</span>女朋友​</td>
-<td>这个，尽量吧</td>
-<td></td>
-</tr>
-<tr>
-<td>攒钱</td>
-<td>&gt; 80,000 HKD</td>
-<td>要是有<span class="github-emoji" style="display:inline;vertical-align:middle;color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f467.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f467.png?v8">👧</span>的话，估计 &gt; 70,000 HKD​</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
